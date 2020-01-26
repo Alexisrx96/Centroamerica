@@ -1,0 +1,84 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #458dbf;
+}
+
+h1{
+	text-align: center;
+	color: #ffffff;
+}
+.tittleLink{
+	display: block;
+	text-decoration: none;
+}
+.tittleLink :hover{
+	background-color: #0F4C81;
+	color: #ffffff;
+}
+h2{
+	color: #c21123;
+}
+h3{
+	
+	color: #c21123;
+}
+.box{
+	margin: 4%;
+	margin-top: 5.5%;
+}
+
+header{
+	background-color: #0F4C81;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+nav ul {
+	background-color: #c21123;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+	font-size: 1em;
+}
+
+nav li a {
+	color: #ffffff;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px 16px;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #42060C;
+}
+
+article{
+	background-color: #ffffff;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 2%;
+
+}
+
+section{
+	background-color: transparent;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+aside{
+	background-color: transparent;
+}
+
+footer{
+	background-color: transparent;
+}
